@@ -69,23 +69,28 @@ a {
     background-color: #fff;
     margin-bottom: 16px;
 }
+
 .div1-title {
     padding: 10px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
 }
+
 .div1 img {
     width: 100%;
     border-radius: 12px;
 }
+
 .main-projects {
     display: flex;
     margin: 0;
 }
+
 .meia-lua-studio {
     padding: 0px 6px 12px 12px;
 }
+
 .matos-entertainment {
     padding: 0px 12px 12px 6px;
 }
@@ -110,18 +115,54 @@ a {
     padding: 12px 20px;
     border-radius: 8px;
     border: 2px solid #0C0C0C;
+    background-color: #fff;
     color: #0C0C0C;
     margin: 0 auto;
     transition: 0.2s;
 }
 
 .main-projects a:hover {
-    animation: 0.75s pulse infinite;
+    background-color: #0C0C0C;
+    color: #fff;
 }
 
 .main-projects span {
     padding: 0px 8px;
 }
+
+.portfolio {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 12px;
+    margin: 0px auto 16px;
+    width: 60%;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio a {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 2px solid #0C0C0C;
+    background-color: #fff;
+    color: #0C0C0C;
+    margin: 8px auto;
+    transition: 0.2s;
+}
+
+.portfolio a:hover {
+    background-color: #0C0C0C;
+    color: #fff;
+}
+
 
 .div2 {
     display: flex;
@@ -163,8 +204,10 @@ a {
 }
 
 .div2 a:hover {
-    animation: 0.75s pulse infinite;
+    background-color: #0C0C0C;
+    color: #fff;
 }
+
 .container-row1,
 .container-row2 {
     display: flex;
@@ -173,6 +216,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
     .main-projects a {
         padding: 12px;
     }
@@ -187,6 +231,10 @@ a {
     }
 
     .div2 a {
+        width: 70%;
+    }
+
+    .portifolio {
         width: 70%;
     }
 }
