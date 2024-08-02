@@ -7,7 +7,7 @@
 }
 
 h3 {
-    color: #fff;
+    color: #F4F4F4;
     margin: 16px 0px;
 }
 
@@ -47,7 +47,7 @@ span {
     width: 120px;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #F4F4F4;
 }
 
 .social-links {
@@ -64,7 +64,7 @@ span {
     align-items: center;
     font-size: 28px;
     padding: 12px;
-    color: #fff;
+    color: #F4F4F4;
     border-radius: 50%;
     transition: background 0.2s;
 }
@@ -75,7 +75,7 @@ span {
 
 .div1 {
     width: 100%;
-    background-color: #fff;
+    background-color: #F4F4F4;
     margin-bottom: 16px;
 }
 
@@ -124,7 +124,7 @@ span {
     padding: 12px 20px;
     border-radius: 8px;
     border: 2px solid #0C0C0C;
-    background-color: #fff;
+    background-color: #F4F4F4;
     color: #0C0C0C;
     margin: 0 auto;
     transition: 0.2s;
@@ -132,14 +132,14 @@ span {
 
 .main-projects a:hover {
     background-color: #0C0C0C;
-    color: #fff;
+    color: #F4F4F4;
 }
 
 .portfolio {
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #F4F4F4;
     padding: 12px;
     margin: 0px auto 16px;
     width: 60%;
@@ -157,7 +157,7 @@ span {
     padding: 12px 20px;
     border-radius: 8px;
     border: 2px solid #0C0C0C;
-    background-color: #fff;
+    background-color: #F4F4F4;
     color: #0C0C0C;
     margin: 8px auto;
     transition: 0.2s;
@@ -165,7 +165,7 @@ span {
 
 .portfolio a:hover {
     background-color: #0C0C0C;
-    color: #fff;
+    color: #F4F4F4;
 }
 
 
@@ -173,7 +173,7 @@ span {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #fff;
+    background-color: #F4F4F4;
     padding: 12px;
 }
 
@@ -210,7 +210,7 @@ span {
 
 .div2 a:hover {
     background-color: #0C0C0C;
-    color: #fff;
+    color: #F4F4F4;
 }
 
 .container-row1,
