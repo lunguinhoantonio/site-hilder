@@ -240,8 +240,7 @@ span {
         width: 70%;
     }
 
-    .portifolio {
-        justify-content: center;
+    .portfolio {
         width: 100%;
     }
 
@@ -250,7 +249,7 @@ span {
     }
 
     .portfolio a {
-        width: 80%;
+        width: 70%;
     }
 }
 
