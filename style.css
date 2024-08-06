@@ -346,6 +346,10 @@ body,
         width: 80%;
         padding: 12px;
     }
+
+    .social-links {
+        width: 75%;
+    }
     
     .container-row1,
     .container-row2 {
