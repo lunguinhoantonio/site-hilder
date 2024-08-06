@@ -145,11 +145,11 @@
         </footer>
         <div class="utils">
             <div>
-                <button id="switch-theme" onclick="switchTheme()"></button>
+                <button class="util-buttons" id="switch-theme" onclick="switchTheme()"></button>
             </div>
             <div>
-                <button id="goBack">
-                    <ion-icon name="arrow-up"></ion-icon>
+                <button class="util-buttons" id="goBack">
+                    <ion-icon name="arrow-up" onclick="backTop()"></ion-icon>
                 </button>
             </div>
         </div>
@@ -170,10 +170,6 @@
                 button.style.animation = 'fadeOut';
                 button.style.animationDuration = '1s';
                 } 
-            };
-            
-            button.addEventListener('click', () => {
-            document.documentElement.scrollTop = 0;
-            });</script>
+            };</script>
     </body>
 </html>
