@@ -14,7 +14,8 @@
         <link rel="shortcut icon" href="./assets/pfp-hilder-circle.ico" type="image/x-icon">
         <title>Hilder de Matos</title>
     </head>
-    <body>
+    <body class="">
+        <header></header>
         <div class="container">
             <div class="top-container">
                 <div class="top-image">
@@ -59,7 +60,10 @@
                             src="./assets/meia-lua-studios.png" 
                             lt="Imagem de capa do Meia Lua Studios">
                             <p>Meia Lua Studio</p>
-                            <a href="https://meialuastudios.blogspot.com" target="_blank">
+                            <a 
+                            class="links"
+                            href="https://meialuastudios.blogspot.com" 
+                            target="_blank">
                                 <span>Visitar</span>
                                 <!-- <iconify-icon icon="majesticons:open" width="1rem" height="1rem"></iconify-icon> -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24">
@@ -70,7 +74,10 @@
                         <div class="matos-entertainment">
                             <img src="./assets/matos-entertainment.png" alt="Imagem de capa de Matos Entertainment">
                             <p>Matos Entertainment</p>
-                            <a href="https://www.instagram.com/studiosmeialua/" target="_blank">
+                            <a 
+                            class="links"
+                            href="https://www.instagram.com/studiosmeialua/" 
+                            target="_blank">
                                 <span>Visitar</span>
                                 <iconify-icon icon="majesticons:open" width="1rem" height="1rem"></iconify-icon>
                             </a>
@@ -79,7 +86,10 @@
                 </div>
                 <div class="portfolio">
                     <h1 class="titles" id="portfolio-title">Portfólio</h1>
-                    <a href="https://www.instagram.com/dematoshilder/" target="_blank">
+                    <a 
+                    class="links" 
+                    href="https://www.instagram.com/dematoshilder/" 
+                    target="_blank">
                         <span>Clique Aqui!</span>
                         <iconify-icon icon="majesticons:open" width="1rem" height="1rem"></iconify-icon>
                     </a>
@@ -116,15 +126,47 @@
                             <p style="opacity: 0.5;">Cobertura Aérea (em breve)</p>
                         </div>
                     </div>
-                    <a href="https://wa.me/5571984075123" target="_blank">
+                    <a 
+                    class="links" 
+                    href="https://wa.me/5571984075123" 
+                    target="_blank">
                         <span>Agendar um ensaio</span>
                         <ion-icon name="camera"></ion-icon>
                     </a>
                 </div>
             </main>
         </div>
+        <div class="utils">
+            <div>
+                <button id="switch-theme" onclick="switchTheme()"></button>
+            </div>
+            <div>
+                <button id="goBack">
+                    <ion-icon name="arrow-up"></ion-icon>
+                </button>
+            </div>
+        </div>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+        <script src="./app.js"></script>
+        <script>
+            const header = document.querySelector('header');
+            const button = document.getElementById('goBack');
+            window.onscroll = (ev) => {
+                if (document.documentElement.scrollTop > header.getBoundingClientRect().y) {
+                button.style.display = 'flex';
+                button.style.animation = 'fadeIn';
+                button.style.animationDuration = '1s';
+                } else {
+                button.style.display = 'none'; 
+                button.style.animation = 'fadeOut';
+                button.style.animationDuration = '1s';
+                } 
+            };
+            
+            button.addEventListener('click', () => {
+            document.documentElement.scrollTop = 0;
+            });</script>
     </body>
 </html>
