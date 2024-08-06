@@ -85,9 +85,12 @@ footer {
 }
 
 .user-name {
-    margin: 12px 0px;
+    margin-top: 12px;
     font-size: 24px;
+}
 
+.user-desc {
+    margin-top: 12px;
 }
 
 .social-links {
