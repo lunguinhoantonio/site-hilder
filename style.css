@@ -6,7 +6,7 @@
     --button-color: #EEE;
     --switch-color: #EEE;
     --text-color: #EEE;
-    --highlight-color: rgba(255, 255, 255, 0.2);
+    --highlight-color: #3E3E3E;
     --switch-bg-url: url(./assets/ion--sunny.svg);
     --border-color: #EEE;
 }
@@ -17,7 +17,7 @@
     --button-color: #0C0C0C;
     --switch-color: #0C0C0C;
     --text-color: #0C0C0C;
-    --highlight-color: rgba(0, 0, 0, 0.2);
+    --highlight-color: #B5B5B5;
     --switch-bg-url: url(./assets/ion--moon.svg);
     --border-color: #0C0C0C;
 }
@@ -275,7 +275,7 @@ footer {
 }
 
 .util-buttons:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--highlight-color) !important;
     cursor: pointer;
 }
 
