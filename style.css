@@ -69,7 +69,7 @@ footer {
     width: 100%;
     max-width: 720px;
     margin: auto;
-    padding: 40px 12px;
+    padding: 40px 12px 16px;
 }
 
 .top-container {
@@ -142,33 +142,26 @@ footer {
 }
 
 .div1 {
+    padding: 12px;
     width: 100%;
     background-color: var(--bg-color);
     margin-bottom: 16px;
     border: 2px solid var(--border-color);
     color: var(--text-color);
+    justify-content: space-evenly;
 }
 
 #div1-title {
-    padding: 12px 0px;
+    padding-bottom: 12px;
 }
 
 .div1 img {
     width: 100%;
-    border-radius: 12px;
 }
 
 .main-projects {
     display: flex;
     margin: 0;
-}
-
-.meia-lua-studio {
-    padding: 0px 6px 12px 12px;
-}
-
-.matos-entertainment {
-    padding: 0px 12px 12px 6px;
 }
 
 .main-projects p {
