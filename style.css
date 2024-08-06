@@ -57,6 +57,16 @@ span {
     font-weight: 500;
 }
 
+/* ONLY FOR FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+footer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: var(--highlight-color);
+    letter-spacing: 1px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
