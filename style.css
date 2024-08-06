@@ -224,6 +224,10 @@ span {
 
 @media screen and (max-width: 768px) {
 
+    span {
+        font-weight: 400;
+    }
+
     .main-projects a {
         width: 80%;
         padding: 12px;
