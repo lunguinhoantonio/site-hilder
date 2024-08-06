@@ -189,7 +189,7 @@ footer {
     border: 2px solid var(--border-color);
     padding: 12px;
     margin: 0px auto 16px;
-    width: 60%;
+    width: 100%;
 }
 
 #portfolio-title {
