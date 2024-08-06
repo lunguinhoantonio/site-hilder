@@ -352,5 +352,13 @@ body,
     .portfolio a {
         width: 70%;
     }
+
+    #switch-theme:hover {
+        background-color: var(--bg-color);
+    }
+
+    #goBack:hover {
+        background-color: var(--bg-color);
+    }
 }
 
