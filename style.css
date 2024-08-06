@@ -110,7 +110,7 @@ footer {
     padding: 12px;
     color: var(--switch-color);
     border-radius: 50%;
-    transition: background 0.2s;
+    transition: background 0.25s;
 }
 
 .social-links a:hover {
@@ -133,7 +133,7 @@ footer {
     border: 2px solid var(--border-color);
     border-radius: 8px;
     margin: 0 auto;
-    transition: 0.2s;
+    transition: 0.25s;
 }
 
 .links:hover {
@@ -271,7 +271,7 @@ footer {
     padding: 12px;
     border-radius: 50%;
     border: 2px solid var(--border-color);
-    transition: 0.2s;
+    transition: 0.25s;
 }
 
 .util-buttons:hover {
