@@ -26,6 +26,7 @@ a {
 span {
     margin: 0 auto;
     padding: 0px 8px;
+    font-weight: 500;
 }
 
 .container {
@@ -80,7 +81,7 @@ span {
 }
 
 .div1-title {
-    padding: 10px 0px;
+    padding: 12px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -148,6 +149,7 @@ span {
 .portfolio-title {
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 12px;
 }
 
 .portfolio a {
