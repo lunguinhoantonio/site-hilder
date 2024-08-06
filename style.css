@@ -34,7 +34,6 @@ html {
 }
 
 h3 {
-    color: var(--switch-color);
     margin: 16px 0px;
     font-weight: 600;
 }
@@ -79,6 +78,7 @@ footer {
 
 .top-container {
     text-align: center;
+    color: var(--text-color);
 }
 
 .top-image img {
