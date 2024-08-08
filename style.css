@@ -70,13 +70,22 @@ footer {
 
 ::-webkit-scrollbar {
     width: 12px;
-    background: #F4F4F4;
+    background: var(--highlight-color);
 }
 
 ::-webkit-scrollbar-thumb {
     background: #343434;
-    border-radius: 20px;
     box-shadow: 2px 2px 3px #474747;
+    transition: 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(52, 52, 52, 0.9);
+
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #141414;
 }
 
 .container {
