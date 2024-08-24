@@ -356,9 +356,12 @@ body,
         letter-spacing: 0px;
     }
 
+    .links {
+        padding: 12px;
+    }
+
     .main-projects a {
         width: 80%;
-        padding: 12px;
     }
 
     .social-links {
