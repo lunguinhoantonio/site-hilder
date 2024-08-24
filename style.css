@@ -160,6 +160,7 @@ footer {
     border-radius: 8px;
     margin: 0 auto;
     transition: 0.25s;
+    padding: 12px 20px;
 }
 
 .links:hover {
@@ -184,6 +185,11 @@ footer {
 .div1 img {
     width: 100%;
     animation: fadeIn 0.5s;
+    transition: 0.25s;
+}
+
+.div1 img:hover {
+    transform: scale(1.05);
 }
 
 .main-projects {
@@ -201,7 +207,6 @@ footer {
 .main-projects a {
     align-items: center;
     width: 60%;
-    padding: 12px 20px;
     background-color: transparent;
     color: var(--text-color);
 }
