@@ -1,10 +1,20 @@
+function getIdade() {
+    const hoje = new Date();
+    const ano = hoje.getFullYear();
+    const setDeSetembro = new Date(ano, 8, 3);
+    
+    const anosDesde2003 = setDeSetembro <= hoje ? ano - 2003 : ano - 2004;
+    
+    return anosDesde2003;
+}
+
+document.getElementById('idade').textContent = getIdade();
+
 document.addEventListener("DOMContentLoaded", () => {
     const body = document.body;
     const savedTheme = localStorage.getItem("theme");
 
-    if (savedTheme === "light") {
-        body.classList.add("light");
-    }
+    if (savedTheme === "light") body.classList.add("light");
 
     updateImages();
 });

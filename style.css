@@ -103,6 +103,10 @@ footer {
     color: var(--text-color);
 }
 
+#idade {
+    padding: 0;
+}
+
 .top-image img {
     display: block;
     width: 120px;
@@ -247,6 +251,7 @@ footer {
 .div2 img {
     width: 90%;
     margin: 0px auto;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
 }
 
@@ -313,7 +318,6 @@ footer {
 }
 
 /* BACK TO TOP BUTTON CSS */
-
 
 #goBack {
     display: none;
